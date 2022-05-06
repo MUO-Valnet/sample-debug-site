@@ -1,0 +1,145 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.content,
+.extra-padding {
+  padding: 50px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .content,
+  .extra-padding {
+    padding: 5%;
+  }
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.article p,
+.article li {
+  line-height: 2rem;
+  font-size: 1.2em;
+}
+
+p,
+li {
+  line-height: 1.6rem;
+  font-size: 1em;
+}
+
+h3 {
+  font-size: small;
+  // letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  letter-spacing: 2px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .bg-black {
+    background-color: rgb(46, 64, 87);
+  }
+}
+
+.bg-grey {
+  // background-color: #f8f9fa;
+}
+
+.text-black {
+  color: #272b2e;
+}
+
+.text-grey {
+  color: rgb(138, 138, 138);
+}
+
+// Contact Form
+.box {
+  margin: 2rem auto 2rem auto;
+  padding: 30px 25px 60px 25px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  background-color: #2e3741;
+  color: #d3d5d9;
+  border-radius: 5px;
+}
+
+.box h2 {
+  margin-bottom: 1rem;
+  background-color: #2e3741;
+}
+
+.box h5 {
+  background-color: #252729;
+}
+
+.box div {
+  background-color: #2e3741;
+}
+
+.box a {
+  text-decoration: none;
+  color: #d3d5d9;
+  transition: ease 0.3s;
+  background-color: #2e3741;
+}
+
+.box a:hover {
+  text-decoration: none;
+  color: #0cdbb3;
+}
+
+// Overall buttons
+.button {
+  text-decoration: none;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  outline: none;
+  transition: ease 0.5s;
+  background-color: #0a1825;
+}
+
+.button:link,
+.button:visited {
+  text-decoration: none;
+}
+
+.button:hover,
+.button:active {
+  background-color: #15b897;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 25px;
+}
+
+// Specific buttons
+.download {
+  margin: 15px 30px;
+  display: inline-block;
+}
+
+.back {
+  margin: 15px 30px;
+  text-align: center;
+  display: inline-block;
+}
