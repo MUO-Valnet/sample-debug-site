@@ -3,6 +3,7 @@
 ## About 
 
 This is a debug site with dummy data and links made for the purposes of being used in a debugging tutorial.
+This is hosted live at https://t-sample.netlify.app/.
 
 ## To Run
 
