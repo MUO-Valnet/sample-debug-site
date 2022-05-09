@@ -46,10 +46,8 @@ h4 {
   padding-bottom: 50px;
 }
 
-@media screen and (min-width: 1000px) {
-  .bg-black {
-    background-color: #2e4057;
-  }
+.bg-black {
+  background-color: #2e4057;
 }
 
 .text-black {
