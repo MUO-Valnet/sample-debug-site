@@ -2,8 +2,7 @@
 
 ## About 
 
-This is a debug site with dummy data and links made for the purposes of being used in a debugging tutorial.
-This is hosted live at https://t-sample.netlify.app/.
+This is a debug site with dummy data and links made for the purposes of being used in the [How to Use Google Chrome to Debug CSS](https://www.makeuseof.com/css-debug-in-browser-google-chrome/) tutorial.
 
 ## To Run
 
